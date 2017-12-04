@@ -4,30 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Spectral+SC" rel="stylesheet">
+    <script src="https://use.fontawesome.com/18ed855c26.js"></script>
     <link rel="stylesheet" href="./styles/index.css">
     <title>Portfolio</title>
 </head>
 <body>
+    
     <nav role="navigation">
-        <p>nav</p>
+        <ul class="links">
+            <li>Bio</li>
+            <li>Portfolio</li>
+            <li>Resume</li>
+            <li>Contact</li>
+        </ul>
+
     </nav>
     <header role="banner">
-        <h1 class="hero">Hero</h1>
+        <h1>Hi, I’m Chris</h1>
+        <h2>A full stack web developer and problem solver</h2>
+        <p class="skills-container"><<span class="skills" id="skills">HTML5</span>/></p>
     </header>
-    <section role="region">
-        <p>1</p>
+    <section class="about" role="region">
+        <h2 class="about-title">About Me</h2>
+        <div class="about-container">
+                <img class="about-image" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/22424248_10210272667873198_4878736017135487880_o.jpg?oh=7f3d9b531a9a5704ba0cc83bc6694bef&oe=5AD36C4B" alt="My son and I infront of a firetruck">
+                <p class="about-paragraph">I am a web developer and graduate from Thinkful’s Full Stack Web Development bootcamp.  
+                    I love all things technology.  From home automation and gaming to enterprise solutions built on current technologies.  
+                    I have always been curious and enjoy problem solving, learning new tech, and figuring out how things work.  
+                    Programming gives me the ability to literally pull something out of thin air and create applications for anything I can dream up.  
+                    When I am not coding I love spending time with my wife and son and going on adventures.</p>
+        </div>  
     </section>
-    <section role="region">
+    <hr>
+    <section class="project" role="region">
         <p>2</p>
     </section>
-    <section role="region">
+    <section class="project" role="region">
         <p>3</p>
     </section>
-    <section role="region">
+    <section class="project" role="region">
         <p>4</p>
     </section>
+    <hr>
+    <section class="contact" role="region">
+            <h2 class="contact-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="social-media contact-item">
+                    <h3>Social Media</h3>
+                    <a href="https://github.com/ckarras11"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a  href="https://www.linkedin.com/in/christopher-karras-59120ba7/"><i class="fa fa-linkedin-square linkedin" aria-hidden="true"></i></a> 
+                </div>
+                <span class="contact-item">OR</span>
+                <div class="email contact-item">
+                    <h3>Email:</h3>
+                    <a class="email-link"href="mailto:ckarras11@gmail.com">ckarras11@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    <hr>
     <footer role="content-info">
         <p>Copyright 2017</p>
     </footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="./index.js" type="text/javascript"></script>
 </body>
 </html>
