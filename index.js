@@ -1,5 +1,5 @@
 function skillScroll() {
-    const skills = ['CSS3', 'Node.js', 'React', 'MongoDB', 'HTML5']
+    const skills = ['CSS3', 'MongoDB', 'Express', 'React', 'Node.js', 'HTML5']
     let i = 0
     setInterval(function () {
         $('#skills').fadeOut(function () {
