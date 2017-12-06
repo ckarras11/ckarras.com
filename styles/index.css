@@ -178,7 +178,78 @@ hr {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 5px; }
+  padding: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: solid black 1px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #f4f8ff; }
+
+.project-image {
+  height: 200px; }
+
+.project-image:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.project-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.paragraph-container {
+  width: 60%; }
+
+.project-paragraph {
+  text-indent: 25px;
+  text-align: justify;
+  padding: 15px;
+  width: 100%;
+  font-size: 22px; }
+  .project-paragraph a {
+    text-decoration: none;
+    color: black; }
+  .project-paragraph a:hover {
+    text-decoration: underline; }
+
+.skill-container {
+  text-align: center; }
+
+.skill-img {
+  height: 50px;
+  margin: 10px; }
+
+.skills-title {
+  text-align: center; }
+
+@media (max-width: 767px) {
+  .project-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .paragraph-container {
+    width: 95%; }
+  .project-image {
+    margin-bottom: 0; }
+  .project-paragraph {
+    width: 100%; }
+  .project-image {
+    padding: 10px; } }
 
 footer {
   display: -webkit-box;
@@ -312,11 +383,13 @@ nav {
   display: -ms-flexbox;
   display: flex; }
   .links li {
-    text-decoration: none;
     list-style: none;
-    padding: 10px;
     color: white; }
-  .links li:hover {
+    .links li a {
+      text-decoration: none;
+      padding: 10px;
+      color: white; }
+  .links li a:hover {
     color: lightgrey;
     cursor: pointer; }
 

@@ -12,7 +12,51 @@ hr
     justify-content: center
     align-items: center
     padding: 5px
-
+    flex-direction: column
+    border: solid black 1px
+    margin: 10px
+    border-radius: 5px
+    background-color: #f4f8ff
+.project-image
+    height: 200px
+.project-image:hover
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)
+.project-container
+    display: flex
+    width: 100%
+    justify-content: space-around
+    align-items: center
+.paragraph-container
+    width: 60%
+.project-paragraph
+    text-indent: 25px
+    text-align: justify
+    padding: 15px
+    width: 100%
+    font-size: 22px
+    a
+        text-decoration: none
+        color: black
+    a:hover
+        text-decoration: underline
+.skill-container
+    text-align: center
+.skill-img
+    height: 50px
+    margin: 10px
+.skills-title
+    text-align: center
+@media (max-width: 767px)
+    .project-container
+        flex-direction: column
+    .paragraph-container
+        width: 95%
+    .project-image
+        margin-bottom: 0   
+    .project-paragraph
+        width: 100%
+    .project-image
+        padding: 10px
 
 footer
     display: flex
