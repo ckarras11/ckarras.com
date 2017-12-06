@@ -11,12 +11,12 @@
 </head>
 <body>
     
-    <nav role="navigation">
+    <nav role="navigation" id="navbar">
         <ul class="links">
-            <li>Bio</li>
-            <li>Portfolio</li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li>Resume</li>
-            <li>Contact</li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
     </nav>
@@ -25,7 +25,7 @@
         <h2>A full stack web developer and problem solver</h2>
         <p class="skills-container"><<span class="skills" id="skills">HTML5</span>/></p>
     </header>
-    <section class="about" role="region">
+    <section class="about" id="bio" role="region">
         <h2 class="about-title">About Me</h2>
         <div class="about-container">
                 <img class="about-image" src="https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/22424248_10210272667873198_4878736017135487880_o.jpg?oh=7f3d9b531a9a5704ba0cc83bc6694bef&oe=5AD36C4B" alt="My son and I infront of a firetruck">
@@ -37,8 +37,29 @@
         </div>  
     </section>
     <hr>
+    <section class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+    </section>
     <section class="project" role="region">
-        <p>2</p>
+        
+        <h3>Date Night</h3>
+        <div class="project-container">
+            <a href="https://ckarras11.github.io/Date-Night/"><img src="https://photos-5.dropbox.com/t/2/AADmDjvCUlz5u-Zuzh4xxjQOno30IKP94YUC5JJIKH9AJA/12/714703541/png/32x32/1/_/1/2/Screen%20Shot%202017-12-03%20at%208.41.27%20PM.png/EOXSj_IFGA4gBygH/XRxp7aNVx0cSO6d6qyLsl0bXvW0PIZKF3CQOhTv8Fcc?size=2048x1536&size_mode=3" alt="DateNight homescreen" class="project-image"></a>
+            <div class="paragraph-container">
+                    <p class="project-paragraph">My wife and I never know where to go out on date night so I decided to make a simple project using various API’s such as Google Maps, and Foursquare.  
+                            Now we are able to search for food or activities that are around us!  
+                            Click on the image to view the demo or see the source <a href="https://github.com/ckarras11/Date-Night">(here)</a></p>
+                    <h4 class="skills-title">Skills</h4>
+                    <div class="skill-container">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="html5 logo" class="skill-img">
+                        <img src="http://www.exuberantsolutions.com/course_logo/css3.png" alt="css3 logo" class="skill-img">
+                        <img src="https://seeklogo.com/images/J/java-script-js-logo-ACF4AE5082-seeklogo.com.png" alt="javascript logo" class="skill-img">
+                        <img src="http://www.desartlab.com/wp-content/uploads/2015/10/jquery_logo.gif" alt="jQuery logo" class="skill-img">
+                    </div>
+            </div> 
+            
+        </div>
+        
     </section>
     <section class="project" role="region">
         <p>3</p>
@@ -47,7 +68,7 @@
         <p>4</p>
     </section>
     <hr>
-    <section class="contact" role="region">
+    <section class="contact" id="contact" role="region">
             <h2 class="contact-title">Contact Me</h2>
             <div class="contact-container">
                 <div class="social-media contact-item">
