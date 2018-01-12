@@ -354,6 +354,9 @@ nav {
   align-items: center;
   padding: 10px; }
 
+#navbar {
+  display: none; }
+
 .img {
   border: solid black 1px; }
 
