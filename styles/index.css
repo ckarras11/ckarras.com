@@ -397,7 +397,7 @@ nav {
     padding-left: 10px;
     padding-right: 10px; }
   .social-media i:hover {
-    font-size: 28px; }
+    color: #0080c8; }
 
 .linkedin {
   color: #0080ac; }
@@ -410,4 +410,4 @@ nav {
   text-decoration: none; }
 
 .email-link:hover {
-  font-size: 18px; }
+  text-decoration: underline; }
